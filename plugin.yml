@@ -1,0 +1,10 @@
+name: SHParticle
+main: com.SHGroup.SHParticle.ParticleMain
+version: 7.0
+author: sunghun7511(SHGroup)
+
+commands:
+  파티클:
+    description: SH Particle 플러그인
+  SHP:
+    description: SH Particle 플러그인
