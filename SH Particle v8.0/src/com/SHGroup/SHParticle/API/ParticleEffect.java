@@ -156,6 +156,16 @@ public enum ParticleEffect {
 		}
 		return null;
 	}
+
+	public static ParticleEffect fromName_over7(String name) {
+		for (ParticleEffect p : values()) {
+			if (!p.toString().equalsIgnoreCase(name)) {
+				continue;
+			}
+			return p;
+		}
+		return null;
+	}
 	public static ParticleEffect fromId(int id) {
 		for (ParticleEffect p : values()) {
 			if (p.getId() != id) {

@@ -6,7 +6,6 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.net.HttpURLConnection;
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -223,5 +222,4 @@ public class SHUti {
 		}
 		return content;
 	}
-	HttpURLConnection SHPlsHttpURLConnection = null;
-	}
+}
